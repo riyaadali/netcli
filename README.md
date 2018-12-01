@@ -9,6 +9,12 @@ The tool will login to each device with the specified credentials, auto-accept t
 
 Supports multithreading and also connections via SOCKS5 proxies.
 
+Required modules:
+
+paramiko
+pysocks
+logging
+
 ## Using SOCKS proxies
 
 Look for these two lines in netcli.py:
